@@ -7,7 +7,53 @@
   <link rel="stylesheet" href="style.css">
   <title>Боковая панель</title>
 </head>
-<body>
-  
+<body id="body-pd">
+  <div class="app">
+    <header class="header" id="header">
+      <div class="header-toggle">
+        <i class="bx bx-menu" id="header-toggle"></i>
+      </div>
+
+      <div class="header__img">
+        <img src="./avatar.jpg" alt="preview">
+      </div>
+    </header>
+
+    <div class="l-navbar" id="navbar">
+      <nav class="nav">
+        <div>
+          <a href="#" class="nav__logo">
+            <i class="bx bx-sushi nav__logo-icon"></i>
+            <span class="nav__logo-name">БобиноРезка</span>
+          </a>
+
+          <div class="nav__list">
+            <a href="#" class="nav__link active">
+              <i class="bx bx-star nav__icon"></i>
+              <span class="nav__name">Заказы</span>
+            </a>
+
+            <a href="#" class="nav__link">
+              <i class="bx bxs-contact nav__icon"></i>
+              <span class="nav__name">Контакты</span>
+            </a>
+
+            <a href="#" class="nav__link">
+              <i class="bx bx-signal-5 nav__icon"></i>
+              <span class="nav__name">Статистика</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="#" class="nav__link">
+          <i class="bx bx-log-out nav__icon"></i>
+          <span class="nav__name">Выйти</span>
+        </a>
+      </nav>
+    </div>
+    <h1>Components</h1>
+  </div>
+
+  <script src="./script.js"></script>
 </body>
 </html>
